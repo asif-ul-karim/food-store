@@ -67,15 +67,16 @@ width: 100%;
 .social-media-area{
     display: flex;
     box-shadow: 10px 10px 15px gray;
-    width: 93%;
+    width: 86%;
     margin-left: 3%;
     margin-right: 3%;
     border-radius: 24px;
-    padding-left: 1.5%;
+    padding-left: 8%;
 }
 .footer{
     background-color: black;
     text-align: center;
+    margin-top: 100px;
 }
 footer h2{
     color: tomato;
