@@ -2,13 +2,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 55px;
+    font-size: 50px;
 }
 h1 span{
     color: orange;
 }
-#top-font{
-    padding-top: 4%;
+.font-padding{
+    padding-top: 5%;
 }
 .imagine-font{
     padding-bottom: 5%;
@@ -16,6 +16,7 @@ h1 span{
 }
 .display-area{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -31,4 +32,34 @@ width: 100%;
     border-radius: 30px;
     color: white;
     font-weight: 700;
+}
+.color-header{
+    color: gray;
+}
+.aboutme-item{
+    padding-bottom: 8%;
+}
+.about-text-padding{
+    padding-top: 4%;  
+}
+#about-banner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.center-text{
+    text-align: center;
+}
+.recipie-width-item{
+    box-shadow: 10px 10px 15px gray;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 24px;
+    padding-left: 1.5%;
+}
+.recipie-width-item img{
+    width: 95%;
+    margin-top: 5%;
+    margin-right: 4%;
 }
